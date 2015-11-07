@@ -3,7 +3,7 @@
 	"description": "Yii Web Programming Framework",
 	"keywords": ["yii", "framework"],
 	"homepage": "http://www.yiiframework.com/",
-	"type": "library",
+	"type": "framework",
 	"license": "BSD-3-Clause",
 	"authors": [
 		{
@@ -68,12 +68,7 @@
 		"framework/yiic"
 	],
 	"require": {
-		"php": ">=5.1.0"
-	},
-	"autoload": {
-		"classmap" : [
-			"framework/YiiBase.php",
-			"framework/yii.php"
-		]
+		"php": ">=5.1.0",
+		"composer/installers": "~1.0"
 	}
 }
